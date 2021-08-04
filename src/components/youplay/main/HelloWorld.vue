@@ -1,6 +1,6 @@
 <template>
-  <div>
-
+  <div class="col-lg-12">
+    <iframe src="index.htm.html"/>
   </div>
 </template>
 
