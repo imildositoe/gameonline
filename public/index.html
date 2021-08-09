@@ -1,17 +1,97 @@
-<!DOCTYPE html>
-<html lang="">
-  <head>
+<html lang="en">
+
+<!-- Mirrored from html.nkdev.info/monsterplay/dark-index.html by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 07 Aug 2021 15:51:51 GMT -->
+<head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width,initial-scale=1.0">
-    <link rel="icon" href="<%= BASE_URL %>favicon.ico">
-    <title><%= htmlWebpackPlugin.options.title %></title>
-  </head>
-  <body>
+    <title>MonsterPlay</title>
+    <meta name="description" content="MonsterPlay - Superpower for Gaming Websites">
+    <meta name="keywords" content="gaming, game, esports, community, template, html, bootstrap, webpack">
+    <meta name="author" content="nK">
+    <script src="../cdn-cgi/apps/head/8DbmSpGy50BwYMO9SNDk4Lo0D_k.js"></script>
+    <link rel="icon" type="image/png" href="assets/images/favicon.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- START: Styles -->
+    <!-- Adobe Fonts -->
+    <link rel="stylesheet" href="../../use.typekit.net/vgd1cli.css">
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="assets/vendor/bootstrap/dist/css/bootstrap.min.css"/>
+    <!-- Swiper -->
+    <link rel="stylesheet" href="assets/vendor/swiper/swiper-bundle.min.css"/>
+    <!-- Fancybox -->
+    <link rel="stylesheet" href="assets/vendor/fancybox/dist/jquery.fancybox.min.css"/>
+    <!-- Revolution Slider -->
+    <link rel="stylesheet" href="assets/vendor/slider-revolution/css/settings.css">
+    <link rel="stylesheet" href="assets/vendor/slider-revolution/css/layers.css">
+    <link rel="stylesheet" href="assets/vendor/slider-revolution/css/navigation.css">
+    <!-- MonsterPlay -->
+    <link rel="stylesheet" href="assets/css/monsterplay.min.css">
+    <!-- RTL (uncomment this to enable RTL support) -->
+    <!-- <link rel="stylesheet" href="assets/css/monsterplay-rtl.min.css" /> -->
+    <!-- Custom Styles -->
+    <link rel="stylesheet" href="assets/css/custom.css">
+    <!-- END: Styles -->
+    <!-- jQuery -->
+    <script src="assets/vendor/jquery/dist/jquery.min.js"></script>
+    <!-- Preloader -->
+    <script src="assets/js/preloader.min.js"></script>
+</head>
+<body>
     <noscript>
       <strong>We're sorry but <%= htmlWebpackPlugin.options.title %> doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>
     </noscript>
     <div id="app"></div>
     <!-- built files will be auto injected -->
+
+    <script src="assets/vendor/object-fit-images/dist/ofi.min.js"></script>
+    <!-- Popper -->
+    <script src="assets/vendor/popper.js/dist/umd/popper.min.js"></script>
+    <!-- ScrollReveal -->
+    <script src="assets/vendor/scrollreveal/dist/scrollreveal.min.js"></script>
+    <!-- Animejs -->
+    <script src="assets/vendor/animejs/lib/anime.min.js"></script>
+    <!-- Bootstrap -->
+    <script src="assets/vendor/bootstrap/dist/js/bootstrap.min.js"></script>
+    <!-- Jarallax -->
+    <script src="assets/vendor/jarallax/dist/jarallax.min.js"></script>
+    <!-- Swiper -->
+    <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+    <!-- Fancybox -->
+    <script src="assets/vendor/fancybox/dist/jquery.fancybox.min.js"></script>
+    <!-- jQuery Countdown -->
+    <script src="assets/vendor/jquery-countdown/dist/jquery.countdown.min.js"></script>
+    <!-- Moment.js -->
+    <script src="assets/vendor/moment/min/moment.min.js"></script>
+    <script src="assets/vendor/moment-timezone/builds/moment-timezone-with-data.min.js"></script>
+    <!-- Revolution Slider -->
+    <script src="assets/vendor/slider-revolution/js/jquery.themepunch.tools.min.js"></script>
+    <script src="assets/vendor/slider-revolution/js/jquery.themepunch.revolution.min.js"></script>
+    <!-- ImagesLoaded -->
+    <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
+    <!-- Isotope -->
+    <script src="assets/vendor/isotope-layout/dist/isotope.pkgd.min.js"></script>
+    <!-- Ion Range Slider -->
+    <script src="assets/vendor/ion-rangeslider/js/ion.rangeSlider.min.js"></script>
+    <!-- Bootstrap TouchSpin -->
+    <script src="assets/vendor/bootstrap-touchspin/dist/jquery.bootstrap-touchspin.min.js"></script>
+    <!-- Bootstrap Validator -->
+    <script src="assets/vendor/bootstrap-validator/dist/validator.min.js"></script>
+    <!-- MonsterPlay -->
+    <script src="assets/js/monsterplay.min.js"></script>
+    <script src="assets/js/monsterplay-init.js"></script>
+    <!-- END: Scripts -->
+    <script>
+        $('.mpl-countdown').each(function () {
+            const $this = $(this);
+            const tz = $this.attr('data-timezone');
+            let end = $this.attr('data-end');
+            end = moment.tz(end, tz).toDate();
+            $this.countdown(end, function (event) {
+                $this.text(event.strftime('%D days %H:%M:%S'));
+            });
+        });
+    </script>
   </body>
+
+  <!-- Mirrored from html.nkdev.info/monsterplay/dark-index.html by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 07 Aug 2021 15:52:43 GMT -->
 </html>
