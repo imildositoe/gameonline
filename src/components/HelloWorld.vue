@@ -1,9 +1,9 @@
 <template>
-  <div class="hello">
+  <div>
     <!-- Preloader -->
     <div class="mpl-preloader">
       <div class="mpl-preloader-content">
-        <div class="mpl-preloader-title display-1 h1">MonsterPlay</div>
+        <div class="mpl-preloader-title display-1 h1">Game Online</div>
         <div class="mpl-preloader-progress">
           <div></div>
         </div>
