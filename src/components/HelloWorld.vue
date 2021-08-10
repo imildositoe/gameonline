@@ -11,6 +11,8 @@
     </div>
     <div class="mpl-preloader-bg"></div>
     <!-- /Preloader -->
+
+
     <!-- Navbar -->
     <nav class="mpl-navbar-top mpl-navbar">
       <div class="mpl-navbar-mobile-overlay"></div>
@@ -597,6 +599,8 @@
       </div>
     </nav>
     <!-- /Navbar -->
+
+
     <!-- Navbar Mobile -->
     <nav class="mpl-navbar mpl-navbar-mobile">
       <div class="mpl-navbar-container">
@@ -1082,9 +1086,12 @@
       </div>
     </nav>
     <!-- /Navbar Mobile -->
+
+
     <div class="content-wrap">
       <div class="mpl-navbar-mobile-overlay"></div>
       <div>
+        <!-- Read more banner -->
         <section class="mpl-banner mpl-banner-top mpl-banner-parallax">
           <div class="mpl-image" data-speed="0.8">
             <img src="assets/images/dark/bg-banner-1.jpg" alt="" class="jarallax-img">
@@ -1105,6 +1112,25 @@
             </div>
           </div>
         </section>
+        <!-- /Read more banner -->
+
+
+
+<!--        <swiper-->
+<!--            :slides-per-view="3"-->
+<!--            :space-between="50"-->
+<!--            navigation-->
+<!--            :pagination="{ clickable: true }"-->
+<!--            :scrollbar="{ draggable: true }"-->
+<!--            @swiper="onSwiper"-->
+<!--            @slideChange="onSlideChange"-->
+<!--        >-->
+<!--          <swiper-slide>Slide 1</swiper-slide>-->
+<!--          <swiper-slide>Slide 2</swiper-slide>-->
+<!--          <swiper-slide>Slide 3</swiper-slide>-->
+<!--        </swiper>-->
+
+
         <!-- Carousel -->
         <div class="mpl-box-sm">
           <div class="container">
@@ -1206,6 +1232,8 @@ data-scrollbar
           </div>
         </div>
         <!-- /Carousel -->
+
+
         <!-- Specials -->
         <div class="mpl-box-md bg-light">
           <div class="container">
@@ -1735,6 +1763,8 @@ data-scrollbar
           </div>
         </div>
         <!-- /Specials -->
+
+
         <!-- Latest News -->
         <div class="mpl-box-md">
           <div class="container">
@@ -1877,6 +1907,8 @@ data-scrollbar
           </div>
         </div>
         <!-- /Latest News -->
+
+
         <!-- Partners -->
         <section class="mpl-banner mpl-banner-parallax mpl-banner-small">
           <div class="mpl-image" data-speed="0.8">
@@ -1913,6 +1945,8 @@ data-scrollbar
           </div>
         </section>
         <!-- /Partners -->
+
+
         <div class="mpl-box-md">
           <div class="container">
             <div class="row hgap-lg vgap-lg">
@@ -1974,6 +2008,8 @@ data-scrollbar
             </div>
           </div>
         </div>
+
+
         <!-- Features -->
         <div class="mpl-box-md bg-light">
           <div class="container text-center">
@@ -2028,6 +2064,8 @@ data-scrollbar
           </div>
         </div>
         <!-- /Features -->
+
+
         <!-- Footer -->
         <footer class="mpl-footer mpl-footer-parallax mpl-footer-social">
           <div class="mpl-image" data-speed="0.9" data-img-position="50% 0%">
@@ -2100,6 +2138,8 @@ data-scrollbar
         <!-- /Footer -->
       </div>
     </div>
+
+
     <!-- Popup Search -->
     <div class="container mpl-fancybox-search mpl-fancybox-content" id="popup-search">
       <form action="#" class="mpl-fancybox-search-content">
@@ -2113,6 +2153,9 @@ data-scrollbar
         <div class="mpl-fancybox-search-line"></div>
       </form>
     </div>
+    <!-- /Popup Search -->
+
+
     <!-- Popup Sign In -->
     <div class="container mpl-fancybox-sign mpl-fancybox-content" id="popup-signin">
       <div class="mpl-fancybox-sign-content">
@@ -2179,6 +2222,9 @@ data-scrollbar
         </svg>
       </button>
     </div>
+    <!-- /Popup Sign In -->
+
+
     <!-- Popup Cart -->
     <div class="container mpl-fancybox-cart mpl-fancybox-content" id="popup-cart">
       <div class="mpl-fancybox-cart-content">
@@ -2256,12 +2302,35 @@ data-scrollbar
         </svg>
       </button>
     </div>
+    <!-- /Popup Cart -->
   </div>
 </template>
 
 <script>
+import SwiperCore, {Navigation, Pagination, Scrollbar, A11y} from 'swiper';
+import {Swiper, SwiperSlide} from 'swiper/vue';
+// import 'swiper/swiper.scss';
+// import 'swiper/components/navigation/navigation.scss';
+// import 'swiper/components/pagination/pagination.scss';
+// import 'swiper/components/scrollbar/scrollbar.scss';
+
+
+SwiperCore.use([Navigation, Pagination, Scrollbar, A11y]);
+
 export default {
   name: 'HelloWorld',
+  components: {
+    Swiper,
+    SwiperSlide,
+  },
+  methods: {
+    // onSwiper(swiper) {
+    //   console.log(swiper);
+    // },
+    // onSlideChange() {
+    //   console.log('slide change');
+    // },
+  },
 }
 </script>
 
