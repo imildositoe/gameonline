@@ -1115,146 +1115,39 @@
         <!-- /Read more banner -->
 
 
+        <!--        <swiper-->
+        <!--            class="parallax-slider"-->
+        <!--            :navigation="{ nextEl: '.nextArrow', prevEl: '.prevArrow' }"-->
+        <!--            parallax-->
+        <!--            grabCursor-->
+        <!--            @swiper="onSwiperInitialized"-->
+        <!--        >-->
+        <!--          <swiper-slide-->
+        <!--              class="parallax-slide"-->
+        <!--              v-for="image in images"-->
+        <!--              :key="image.id"-->
+        <!--          >-->
+        <!--            <div-->
+        <!--                class="parallax-slide-image"-->
+        <!--                :data-swiper-parallax="parallaxAmount"-->
+        <!--                :data-swiper-parallax-opacity="0.5"-->
+        <!--            >-->
+        <!--              <img :src="image.imageUrl" />-->
+        <!--            </div>-->
+        <!--          </swiper-slide>-->
+        <!--        </swiper>-->
 
-<!--        <swiper-->
-<!--            :slides-per-view="3"-->
-<!--            :space-between="50"-->
-<!--            navigation-->
-<!--            :pagination="{ clickable: true }"-->
-<!--            :scrollbar="{ draggable: true }"-->
-<!--            @swiper="onSwiper"-->
-<!--            @slideChange="onSlideChange"-->
-<!--        >-->
-<!--          <swiper-slide>Slide 1</swiper-slide>-->
-<!--          <swiper-slide>Slide 2</swiper-slide>-->
-<!--          <swiper-slide>Slide 3</swiper-slide>-->
-<!--        </swiper>-->
-
-
-        <!-- Carousel -->
-        <div class="mpl-box-sm">
-          <div class="container">
-            <!--
-Carousel
-
-Additional attributes:
-data-autoplay
-data-loop
-data-dots
-data-arrows
-data-speed
-data-slides
-data-autoHeight
-data-grabCursor
-data-scrollbar
--->
-            <div class="mpl-carousel" data-gap="30" data-loop="true" data-arrows="true" data-autoplay="5000"
-                 data-slides="1" data-breakpoints="992:3,767:2">
-              <a href="blog-post-gallery.html" class="mpl-post-item mpl-post-overlay">
-                                <span class="mpl-post-image">
-                                    <span class="mpl-image">
-                                        <img src="assets/images/dark/blog-1-760x560.jpg" alt="">
-                                    </span>
-                                </span>
-                <span class="mpl-post-content">
-                                    <span class="mpl-post-title h4">Black Mesa</span>
-                                    <div class="mpl-hexagon-rating mpl-hexagon-rating-small"
-                                         data-hexagon="91"><span>9.1</span></div>
-                                </span>
-              </a>
-              <a href="blog-post-carousel.html" class="mpl-post-item mpl-post-overlay">
-                                <span class="mpl-post-image">
-                                    <span class="mpl-image">
-                                        <img src="assets/images/dark/blog-2-760x560.jpg" alt="">
-                                    </span>
-                                </span>
-                <span class="mpl-post-content">
-                                    <span class="mpl-post-title h4">Nioh 2</span>
-                                    <div class="mpl-hexagon-rating mpl-hexagon-rating-small"
-                                         data-hexagon="90"><span>9</span></div>
-                                </span>
-              </a>
-              <a href="blog-post-simple.html" class="mpl-post-item mpl-post-overlay">
-                                <span class="mpl-post-image">
-                                    <span class="mpl-image">
-                                        <img src="assets/images/dark/blog-3-760x560.jpg" alt="">
-                                    </span>
-                                </span>
-                <span class="mpl-post-content">
-                                    <span class="mpl-post-title h4">Death Stranding</span>
-                                    <div class="mpl-hexagon-rating mpl-hexagon-rating-small"
-                                         data-hexagon="38"><span>3.8</span></div>
-                                </span>
-              </a>
-              <a href="blog-post-gallery.html" class="mpl-post-item mpl-post-overlay">
-                                <span class="mpl-post-image">
-                                    <span class="mpl-image">
-                                        <img src="assets/images/dark/blog-4-760x560.jpg" alt="">
-                                    </span>
-                                </span>
-                <span class="mpl-post-content">
-                                    <span class="mpl-post-title h4">Rust</span>
-                                </span>
-              </a>
-              <a href="blog-post-carousel.html" class="mpl-post-item mpl-post-overlay">
-                                <span class="mpl-post-image">
-                                    <span class="mpl-image">
-                                        <img src="assets/images/dark/blog-5-760x560.jpg" alt="">
-                                    </span>
-                                </span>
-                <span class="mpl-post-content">
-                                    <span class="mpl-post-title h4">Red Dead Redemption 2</span>
-                                </span>
-              </a>
-              <a href="blog-post-simple.html" class="mpl-post-item mpl-post-overlay">
-                                <span class="mpl-post-image">
-                                    <span class="mpl-image">
-                                        <img src="assets/images/dark/blog-6-760x560.jpg" alt="">
-                                    </span>
-                                </span>
-                <span class="mpl-post-content">
-                                    <span class="mpl-post-title h4">Cyberpunk 2077</span>
-                                    <div class="mpl-hexagon-rating mpl-hexagon-rating-small"
-                                         data-hexagon="98"><span>9.8</span></div>
-                                </span>
-              </a>
-              <a href="blog-post-gallery.html" class="mpl-post-item mpl-post-overlay">
-                                <span class="mpl-post-image">
-                                    <span class="mpl-image">
-                                        <img src="assets/images/dark/blog-7-760x560.jpg" alt="">
-                                    </span>
-                                </span>
-                <span class="mpl-post-content">
-                                    <span class="mpl-post-title h4">Sekiro: Shadows Die Twice</span>
-                                </span>
-              </a>
-            </div>
-          </div>
-        </div>
-        <!-- /Carousel -->
-
-
-        <!-- Specials -->
-        <div class="mpl-box-md bg-light">
-          <div class="container">
-            <h2 class="text-center mb-60">From Our Store</h2>
-            <!--
-Carousel
-
-Additional attributes:
-data-autoplay
-data-loop
-data-dots
-data-arrows
-data-speed
-data-slides
-data-autoHeight
-data-grabCursor
-data-scrollbar
--->
-            <div class="mpl-carousel" data-gap="10" data-loop="true" data-arrows="true" data-slides="1"
-                 data-breakpoints="992:3,767:2">
-              <a href="shop-product.html" class="mpl-product-item">
+        <swiper
+            class="swiper-container"
+            :slides-per-view="4"
+            :space-between="50"
+            navigation
+            data-slides="loop"
+            @swiper="onSwiper"
+            @slideChange="onSlideChange"
+        >
+          <swiper-slide>
+            <a href="shop-product.html" class="mpl-product-item">
                                 <span class="mpl-product-image">
                                     <span class="mpl-image">
                                         <img src="assets/images/dark/product-1280x820.jpg" alt="">
@@ -1318,12 +1211,14 @@ data-scrollbar
                                         </span>
                                     </span>
                                 </span>
-                <span class="mpl-product-content">
+              <span class="mpl-product-content">
                                     <span class="mpl-product-title h4">Gamepad MPL</span>
                                     <span class="mpl-price"> $120.00 </span>
                                 </span>
-              </a>
-              <a href="shop-product.html" class="mpl-product-item">
+            </a>
+          </swiper-slide>
+          <swiper-slide>
+            <a href="shop-product.html" class="mpl-product-item">
                                 <span class="mpl-product-image">
                                     <span class="mpl-image">
                                         <img src="assets/images/dark/product-2-1280x820.jpg" alt="">
@@ -1387,14 +1282,16 @@ data-scrollbar
                                         </span>
                                     </span>
                                 </span>
-                <span class="mpl-product-content">
+              <span class="mpl-product-content">
                                     <span class="mpl-product-title h4">Headphones MPL</span>
                                     <span class="mpl-price"> $84.99 <span>$114.99</span>
                                     </span>
                                     <span class="badge badge-brand">-30%</span>
                                 </span>
-              </a>
-              <a href="shop-product.html" class="mpl-product-item">
+            </a>
+          </swiper-slide>
+          <swiper-slide>
+            <a href="shop-product.html" class="mpl-product-item">
                                 <span class="mpl-product-image">
                                     <span class="mpl-image">
                                         <img src="assets/images/dark/product-3-1280x820.jpg" alt="">
@@ -1458,12 +1355,14 @@ data-scrollbar
                                         </span>
                                     </span>
                                 </span>
-                <span class="mpl-product-content">
+              <span class="mpl-product-content">
                                     <span class="mpl-product-title h4">Headphones MPS</span>
                                     <span class="mpl-price"> $74.99 </span>
                                 </span>
-              </a>
-              <a href="shop-product.html" class="mpl-product-item">
+            </a>
+          </swiper-slide>
+          <swiper-slide>
+            <a href="shop-product.html" class="mpl-product-item">
                                 <span class="mpl-product-image">
                                     <span class="mpl-image">
                                         <img src="assets/images/dark/product-4-1280x820.jpg" alt="">
@@ -1527,12 +1426,14 @@ data-scrollbar
                                         </span>
                                     </span>
                                 </span>
-                <span class="mpl-product-content">
+              <span class="mpl-product-content">
                                     <span class="mpl-product-title h4">Soundbar MPL</span>
                                     <span class="mpl-price"> $109.99 </span>
                                 </span>
-              </a>
-              <a href="shop-product.html" class="mpl-product-item">
+            </a>
+          </swiper-slide>
+          <swiper-slide>
+            <a href="shop-product.html" class="mpl-product-item">
                                 <span class="mpl-product-image">
                                     <span class="mpl-image">
                                         <img src="assets/images/dark/product-5-1280x820.jpg" alt="">
@@ -1596,20 +1497,22 @@ data-scrollbar
                                         </span>
                                     </span>
                                 </span>
-                <span class="mpl-product-content">
+              <span class="mpl-product-content">
                                     <span class="mpl-product-title h4">Microphone MPL</span>
                                     <span class="mpl-price"> $139.99 <span>149.99</span>
                                     </span>
                                     <span class="badge badge-brand">-10%</span>
                                 </span>
-              </a>
-              <a href="shop-product.html" class="mpl-product-item">
+            </a>
+          </swiper-slide>
+          <swiper-slide>
+            <a href="shop-product.html" class="mpl-product-item">
                                 <span class="mpl-product-image">
                                     <span class="mpl-image">
                                         <img src="assets/images/dark/product-7-1280x820.jpg" alt="">
                                     </span>
                                 </span>
-                <span class="mpl-product-content">
+              <span class="mpl-product-content">
                                     <span class="mpl-product-title h4">Gamepad MPL S</span>
                                     <span class="mpl-product-date">
                                         <svg class="icon" viewBox="0 0 24 24" stroke="currentColor" fill="none"
@@ -1618,8 +1521,10 @@ data-scrollbar
                                                 d="M16 2V6M8 2V6M3 10H21M5 4H19C20.1046 4 21 4.89543 21 6V20C21 21.1046 20.1046 22 19 22H5C3.89543 22 3 21.1046 3 20V6C3 4.89543 3.89543 4 5 4Z"/>
                                         </svg>Beginning of 2021 </span>
                                 </span>
-              </a>
-              <a href="shop-product.html" class="mpl-product-item">
+            </a>
+          </swiper-slide>
+          <swiper-slide>
+            <a href="shop-product.html" class="mpl-product-item">
                                 <span class="mpl-product-image">
                                     <span class="mpl-image">
                                         <img src="assets/images/dark/product-6-1280x820.jpg" alt="">
@@ -1683,12 +1588,14 @@ data-scrollbar
                                         </span>
                                     </span>
                                 </span>
-                <span class="mpl-product-content">
+              <span class="mpl-product-content">
                                     <span class="mpl-product-title h4">Camera MPL</span>
                                     <span class="mpl-price"> $198.99 </span>
                                 </span>
-              </a>
-              <a href="shop-product.html" class="mpl-product-item">
+            </a>
+          </swiper-slide>
+          <swiper-slide>
+            <a href="shop-product.html" class="mpl-product-item">
                                 <span class="mpl-product-image">
                                     <span class="mpl-image">
                                         <img src="assets/images/dark/product-8-1280x820.jpg" alt="">
@@ -1752,16 +1659,27 @@ data-scrollbar
                                         </span>
                                     </span>
                                 </span>
-                <span class="mpl-product-content">
+              <span class="mpl-product-content">
                                     <span class="mpl-product-title h4">Camera MPS</span>
                                     <span class="mpl-price"> $119.99 <span>$129.99</span>
                                     </span>
                                     <span class="badge badge-brand">-10%</span>
                                 </span>
-              </a>
-            </div>
-          </div>
-        </div>
+            </a>
+          </swiper-slide>
+        </swiper>
+
+
+<!--        &lt;!&ndash; Specials &ndash;&gt;-->
+<!--        <div class="mpl-box-md bg-light">-->
+<!--          <div class="container">-->
+<!--            <h2 class="text-center mb-60">From Our Store</h2>-->
+<!--            <div class="mpl-carousel" data-gap="10" data-loop="true" data-arrows="true" data-slides="1"-->
+<!--                 data-breakpoints="992:3,767:2">-->
+<!--              -->
+<!--            </div>-->
+<!--          </div>-->
+<!--        </div>-->
         <!-- /Specials -->
 
 
@@ -2309,29 +2227,39 @@ data-scrollbar
 <script>
 import SwiperCore, {Navigation, Pagination, Scrollbar, A11y} from 'swiper';
 import {Swiper, SwiperSlide} from 'swiper/vue';
-// import 'swiper/swiper.scss';
-// import 'swiper/components/navigation/navigation.scss';
-// import 'swiper/components/pagination/pagination.scss';
-// import 'swiper/components/scrollbar/scrollbar.scss';
-
+import 'swiper/swiper.scss';
+import 'swiper/components/navigation/navigation.scss';
+import 'swiper/components/pagination/pagination.scss';
+import 'swiper/components/scrollbar/scrollbar.scss';
 
 SwiperCore.use([Navigation, Pagination, Scrollbar, A11y]);
 
 export default {
   name: 'HelloWorld',
+  data() {
+    return {
+      parallaxSwiperWidth: 0,
+      images: [
+        {id: 1, imageUrl: require("../../public/assets/images/avatar-user-1.jpg")},
+        {id: 2, imageUrl: require("../../public/assets/images/avatar-user-2.jpg")},
+        {id: 3, imageUrl: require("../../public/assets/images/avatar-user-3.jpg")},
+      ],
+    }
+
+  },
   components: {
     Swiper,
     SwiperSlide,
   },
   methods: {
-    // onSwiper(swiper) {
-    //   console.log(swiper);
-    // },
-    // onSlideChange() {
-    //   console.log('slide change');
-    // },
+    onSwiper(swiper) {
+
+    },
+    onSlideChange() {
+
+    },
   },
-}
+};
 </script>
 
 <style scoped>
