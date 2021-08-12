@@ -1101,10 +1101,8 @@
               <div class="row">
                 <div class="col-lg-10" data-sr="banner" data-sr-interval="200" data-sr-duration="1200"
                      data-sr-distance="20">
-                  <h1 class="display-1" data-sr-item="banner">Black Mesa</h1>
-                  <p class="lead" data-sr-item="banner"> "Have beginning wherein spirit. Bearing unto. To
-                    after light. Good image can't without hath fly beast him fish firmament fish Face waters
-                    fly unto spirit i doesn't one waters divide." </p>
+                  <h1 class="display-1" data-sr-item="banner">Game Online</h1>
+                  <p class="lead" data-sr-item="banner"> "Keep calm and dive into World Wide Game online." </p>
                   <a class="btn btn-md btn-brand" href="blog-post-gallery.html" data-sr-item="banner">Read
                     More</a>
                 </div>
@@ -1136,18 +1134,16 @@
         <!--            </div>-->
         <!--          </swiper-slide>-->
         <!--        </swiper>-->
-
-        <swiper
-            class="col-lg-10"
-            :slides-per-view="4"
-            :space-between="50"
-            navigation
-            data-slides="loop"
-            @swiper="onSwiper"
-            @slideChange="onSlideChange"
-        >
-          <swiper-slide>
-            <a href="shop-product.html" class="mpl-product-item">
+        <div class="slider">
+          <swiper
+              :slides-per-view="7"
+              :space-between="5"
+              navigation
+              @swiper="onSwiper"
+              @slideChange="onSlideChange"
+          >
+            <swiper-slide>
+              <a href="shop-product.html" class="mpl-product-item">
                                 <span class="mpl-product-image">
                                     <span class="mpl-image">
                                         <img src="assets/images/dark/product-1280x820.jpg" alt="">
@@ -1211,14 +1207,14 @@
                                         </span>
                                     </span>
                                 </span>
-              <span class="mpl-product-content">
+                <span class="mpl-product-content">
                                     <span class="mpl-product-title h4">Gamepad MPL</span>
                                     <span class="mpl-price"> $120.00 </span>
                                 </span>
-            </a>
-          </swiper-slide>
-          <swiper-slide>
-            <a href="shop-product.html" class="mpl-product-item">
+              </a>
+            </swiper-slide>
+            <swiper-slide>
+              <a href="shop-product.html" class="mpl-product-item">
                                 <span class="mpl-product-image">
                                     <span class="mpl-image">
                                         <img src="assets/images/dark/product-2-1280x820.jpg" alt="">
@@ -1282,16 +1278,16 @@
                                         </span>
                                     </span>
                                 </span>
-              <span class="mpl-product-content">
+                <span class="mpl-product-content">
                                     <span class="mpl-product-title h4">Headphones MPL</span>
                                     <span class="mpl-price"> $84.99 <span>$114.99</span>
                                     </span>
                                     <span class="badge badge-brand">-30%</span>
                                 </span>
-            </a>
-          </swiper-slide>
-          <swiper-slide>
-            <a href="shop-product.html" class="mpl-product-item">
+              </a>
+            </swiper-slide>
+            <swiper-slide>
+              <a href="shop-product.html" class="mpl-product-item">
                                 <span class="mpl-product-image">
                                     <span class="mpl-image">
                                         <img src="assets/images/dark/product-3-1280x820.jpg" alt="">
@@ -1355,14 +1351,14 @@
                                         </span>
                                     </span>
                                 </span>
-              <span class="mpl-product-content">
+                <span class="mpl-product-content">
                                     <span class="mpl-product-title h4">Headphones MPS</span>
                                     <span class="mpl-price"> $74.99 </span>
                                 </span>
-            </a>
-          </swiper-slide>
-          <swiper-slide>
-            <a href="shop-product.html" class="mpl-product-item">
+              </a>
+            </swiper-slide>
+            <swiper-slide>
+              <a href="shop-product.html" class="mpl-product-item">
                                 <span class="mpl-product-image">
                                     <span class="mpl-image">
                                         <img src="assets/images/dark/product-4-1280x820.jpg" alt="">
@@ -1426,14 +1422,14 @@
                                         </span>
                                     </span>
                                 </span>
-              <span class="mpl-product-content">
+                <span class="mpl-product-content">
                                     <span class="mpl-product-title h4">Soundbar MPL</span>
                                     <span class="mpl-price"> $109.99 </span>
                                 </span>
-            </a>
-          </swiper-slide>
-          <swiper-slide>
-            <a href="shop-product.html" class="mpl-product-item">
+              </a>
+            </swiper-slide>
+            <swiper-slide>
+              <a href="shop-product.html" class="mpl-product-item">
                                 <span class="mpl-product-image">
                                     <span class="mpl-image">
                                         <img src="assets/images/dark/product-5-1280x820.jpg" alt="">
@@ -1497,22 +1493,22 @@
                                         </span>
                                     </span>
                                 </span>
-              <span class="mpl-product-content">
+                <span class="mpl-product-content">
                                     <span class="mpl-product-title h4">Microphone MPL</span>
                                     <span class="mpl-price"> $139.99 <span>149.99</span>
                                     </span>
                                     <span class="badge badge-brand">-10%</span>
                                 </span>
-            </a>
-          </swiper-slide>
-          <swiper-slide>
-            <a href="shop-product.html" class="mpl-product-item">
+              </a>
+            </swiper-slide>
+            <swiper-slide>
+              <a href="shop-product.html" class="mpl-product-item">
                                 <span class="mpl-product-image">
                                     <span class="mpl-image">
                                         <img src="assets/images/dark/product-7-1280x820.jpg" alt="">
                                     </span>
                                 </span>
-              <span class="mpl-product-content">
+                <span class="mpl-product-content">
                                     <span class="mpl-product-title h4">Gamepad MPL S</span>
                                     <span class="mpl-product-date">
                                         <svg class="icon" viewBox="0 0 24 24" stroke="currentColor" fill="none"
@@ -1521,10 +1517,10 @@
                                                 d="M16 2V6M8 2V6M3 10H21M5 4H19C20.1046 4 21 4.89543 21 6V20C21 21.1046 20.1046 22 19 22H5C3.89543 22 3 21.1046 3 20V6C3 4.89543 3.89543 4 5 4Z"/>
                                         </svg>Beginning of 2021 </span>
                                 </span>
-            </a>
-          </swiper-slide>
-          <swiper-slide>
-            <a href="shop-product.html" class="mpl-product-item">
+              </a>
+            </swiper-slide>
+            <swiper-slide>
+              <a href="shop-product.html" class="mpl-product-item">
                                 <span class="mpl-product-image">
                                     <span class="mpl-image">
                                         <img src="assets/images/dark/product-6-1280x820.jpg" alt="">
@@ -1588,14 +1584,14 @@
                                         </span>
                                     </span>
                                 </span>
-              <span class="mpl-product-content">
+                <span class="mpl-product-content">
                                     <span class="mpl-product-title h4">Camera MPL</span>
                                     <span class="mpl-price"> $198.99 </span>
                                 </span>
-            </a>
-          </swiper-slide>
-          <swiper-slide>
-            <a href="shop-product.html" class="mpl-product-item">
+              </a>
+            </swiper-slide>
+            <swiper-slide>
+              <a href="shop-product.html" class="mpl-product-item">
                                 <span class="mpl-product-image">
                                     <span class="mpl-image">
                                         <img src="assets/images/dark/product-8-1280x820.jpg" alt="">
@@ -1659,15 +1655,16 @@
                                         </span>
                                     </span>
                                 </span>
-              <span class="mpl-product-content">
+                <span class="mpl-product-content">
                                     <span class="mpl-product-title h4">Camera MPS</span>
                                     <span class="mpl-price"> $119.99 <span>$129.99</span>
                                     </span>
                                     <span class="badge badge-brand">-10%</span>
                                 </span>
-            </a>
-          </swiper-slide>
-        </swiper>
+              </a>
+            </swiper-slide>
+          </swiper>
+        </div>
 
 
         <!--        &lt;!&ndash; Specials &ndash;&gt;-->
@@ -2265,7 +2262,13 @@ export default {
 <style scoped>
 .scrolled {
   min-height: 10px;
-  background: black;
+  background: #262232;
   transition: 0.35s all ease;
+}
+
+.slider {
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
 }
 </style>
