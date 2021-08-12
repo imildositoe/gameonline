@@ -85,6 +85,17 @@
     <script src="assets/js/monsterplay-init.js"></script>
     <!-- END: Scripts -->
     <script>
+        $(function(){
+            $(window).scroll(function() {
+                if($(window).scrollTop() >= 100) {
+                    $('nav').addClass('scrolled');
+                }
+                else {
+                    $('nav').removeClass('scrolled');
+                }
+            });
+        });
+
         $('.mpl-countdown').each(function () {
             const $this = $(this);
             const tz = $this.attr('data-timezone');
