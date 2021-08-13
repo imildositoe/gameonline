@@ -1667,19 +1667,6 @@
         </div>
 
 
-        <!--        &lt;!&ndash; Specials &ndash;&gt;-->
-        <!--        <div class="mpl-box-md bg-light">-->
-        <!--          <div class="container">-->
-        <!--            <h2 class="text-center mb-60">From Our Store</h2>-->
-        <!--            <div class="mpl-carousel" data-gap="10" data-loop="true" data-arrows="true" data-slides="1"-->
-        <!--                 data-breakpoints="992:3,767:2">-->
-        <!--              -->
-        <!--            </div>-->
-        <!--          </div>-->
-        <!--        </div>-->
-        <!-- /Specials -->
-
-
         <!-- Latest News -->
         <div class="mpl-box-md">
           <div class="container">
