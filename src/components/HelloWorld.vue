@@ -2226,7 +2226,6 @@ export default {
       images: [
         {id: 1, imageUrl: require("../../public/assets/images/avatar-user-1.jpg")},
         {id: 2, imageUrl: require("../../public/assets/images/avatar-user-2.jpg")},
-        {id: 3, imageUrl: require("../../public/assets/images/avatar-user-3.jpg")},
       ],
     }
 
